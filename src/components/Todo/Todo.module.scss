@@ -1,0 +1,68 @@
+@import 'src/styles/services/common';
+
+
+.addTodo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $indent * 3;
+
+    .addInput {
+        flex-grow: 1;
+        margin-bottom: 0;
+        margin-right: $indent * 2;
+    }
+    button {
+        width: 150px;
+    }
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: $indent * 6;
+}
+
+.list {
+    @include ul-default;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.todoWrapper {
+    padding: 10px;
+    border: 2px solid cadetblue;
+    border-radius: $indent / 2;
+    margin-bottom: $indent * 2;
+    display: flex;
+    align-items: center;
+
+    input {
+        margin-right: $indent;
+    }
+}
+
+.todoCompleted {
+    background: cadetblue;
+
+    .todoTitle, .todoId {
+        color: azure;
+    }
+}
+
+.todoId {
+    margin-right: $indent;
+    margin-left: $indent;
+}
+
+.todoRemove {
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    line-height: 7.5px;
+    background-color: brown;
+}
+
+.more {
+    margin-left: 8px;
+}

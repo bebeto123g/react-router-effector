@@ -1,0 +1,17 @@
+@import 'src/styles/services/common';
+
+.header {
+    background-color: cadetblue;
+    height: var(--navbar-height);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.backBtn {
+    background-color: azure;
+    color: cadetblue;
+}

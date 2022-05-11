@@ -1,0 +1,12 @@
+@import 'src/styles/services/common';
+
+.formGroup {
+    margin-bottom: $indent * 3;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+
+.input {
+    padding: 10px 20px;
+}

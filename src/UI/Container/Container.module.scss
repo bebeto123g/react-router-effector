@@ -1,0 +1,14 @@
+@import "src/styles/services/common";
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    @include minWidthMobile {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
